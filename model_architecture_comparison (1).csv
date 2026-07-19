@@ -1,7 +1,0 @@
-Model,Hidden Size,Num Layers,Attention Heads,KV Heads,Attention Type,Activation Fn,Vocab Size,Max Context Length,RoPE Theta
-Llama 3.2 1B,2048,16,32,8,GQA (fewer KV heads),silu,128256,131072,N/A
-Mistral 7B v0.3,4096,32,32,8,GQA (fewer KV heads),silu,32768,32768,N/A
-Qwen2.5 1.5B,1536,28,12,2,GQA (fewer KV heads),silu,151936,131072,N/A
-Gemma 2 2B,2304,26,8,4,GQA (fewer KV heads),gelu_pytorch_tanh,256000,8192,N/A
-DeepSeek-Coder 1.3B,2048,24,16,16,MHA (heads = KV heads),silu,32256,16384,N/A
-Phi-2,2560,32,32,32,MHA (heads = KV heads),gelu_new,51200,2048,N/A
